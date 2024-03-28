@@ -1,0 +1,45 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./public/static/css/web/news.css ***!
+  \**************************************************************************************************************/
+.inner-pagebox {
+  max-width: 1440px;
+  margin: 96px auto 0;
+}
+.inner-title {
+  margin-bottom: 48px;
+}
+.search-results {
+  margin-bottom: 48px;
+}
+.public-header.fixed {
+  position: relative;
+  padding-top: 0;
+  top: 0;
+}
+.news-list-wrapper {
+  min-height: 30vh;
+}
+
+@media (max-width: 1200px) {
+  .inner-pagebox {
+    margin-top: 72px;
+  }
+  .inner-title {
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 767px) {
+  .frame-adaption {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .inner-pagebox {
+    margin-top: 32px;
+  }
+  .inner-title {
+    margin-bottom: 24px;
+  }
+  .search-results {
+    margin-bottom: 24px;
+  }
+}
